@@ -1,0 +1,62 @@
+/* font-family
+font-size
+font-weight
+text-align
+text-decoration
+letter-spacing
+color */
+body{
+    font-family: cursive;
+    letter-spacing: normal;
+    background-color: rgb(249, 239, 227);
+    
+}
+h1{
+    color:rgb(112, 112, 199);
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+h3{ 
+    color: rgb(255, 166, 0);
+    text-decoration: underline;
+    text-decoration-color: brown;
+    
+
+}
+p{
+    font-size: 25px;
+    text-align: center;
+   
+    
+}
+.centrato{
+    text-align: center;
+}
+.elenco {
+    font-size: 25px;
+    
+
+}
+span,th{
+    color: rgb(255, 166, 0);
+}
+table{
+    font-size: 25px;
+}
+td{
+    font-size: 15px;
+    text-align: center;
+}
+.lavori{
+    font-size: 25px;
+
+}
+a{
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+    
+}
+
+
