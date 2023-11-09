@@ -1,0 +1,28 @@
+body {
+  background-color: antiquewhite;
+}
+
+#natura {
+  border: 2px solid red;
+  display: inline-block;
+  background-position: right;
+}
+.contain {
+  border: 2px solid red;
+  height: 700px;
+  background-color: rgb(177, 214, 214);
+  background-image: url(foresta.jpg);
+  background-size: cover;
+}
+.title {
+  
+  height: 350px;
+  margin: 350px;
+}
+#titolo {
+  
+  text-align: center;
+  color: white;
+  font-family: fantasy;
+  font-weight: lighter;
+}
