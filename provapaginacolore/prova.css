@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color: #f4f4f4;
+    font-family: monospace;
+}
+h1{
+    
+     text-align: center; 
+    color: blue;
+    font-size: 100px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+/* stilizziamo il main */
+/*metto ogni contenitore al centro schermo */
+.contenitore{
+    text-align: center; 
+}
+/* creiamo i quadrati */
+.quadrato{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 20px 10px;
+}
+/* quadrati ultima riga */
+.etichetta{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-top: -25px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+/* stilizzo i colori */
+#rosso{
+    background-color: red;
+}
+#rosso1{
+    background-color: rgb(234, 226, 226);
+}
+#rosso2{
+    background-color: rgb(243, 186, 186);
+}
+#rosso3{
+    background-color: rgb(244, 98, 98);
+
+}
+#rosso4{
+    background-color: rgb(248, 72, 72);
+}
+
+/* stilizzo il footer */
+footer{
+    margin-top: 200px;
+    height: 400px;
+    background-color: black;
+}
+p{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+}
