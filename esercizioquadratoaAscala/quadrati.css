@@ -1,0 +1,14 @@
+td{
+    width: 300px;
+    height: 300px;
+}
+#quadrato1{
+    background-color: black;
+}
+#quadrato2{
+    background-color: green;
+
+}
+#quadrato3{
+    background-color: red;
+}
