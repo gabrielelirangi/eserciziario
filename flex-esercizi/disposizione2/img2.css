@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: orange;
+    height: 5vh;
+}
+
+.riga1, .riga2 {
+    display: flex; 
+    justify-content: center;  
+    justify-content: space-between;
+}
+.riga3{
+    display: flex;
+    
+}
+
+
+
+.quadrato{
+    border: 2px solid rgb(193,101, 101);
+    height: 250px;
+    width: 250px;
+    background-color: rgb(193, 101, 101);
+    margin: 20px;
+}
+.quadrato2{
+    border: 2px solid red;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    margin: 20px;
+}
+.quadrato3{
+    border: 2px solid rgb(193,101, 101);
+    height: 250px;
+    width: 250px;
+    background-color: rgb(193, 101, 101);
+    margin-right: 265px;
+    margin-left:20px ;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    height: 5vh;
+    background-color: orange;
+}

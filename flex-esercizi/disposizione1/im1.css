@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: orange;
+    height: 10vh;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.contenitore{
+    
+    height: 70vh;
+    display: flex;
+    
+    
+
+}
+#sid1{
+    
+    height: 70vh;
+    width: 30vw;
+    background-color: yellow;
+}
+main{
+    background-color: blue;
+    height: 70vh;
+    width: 40vw;
+
+}
+#sid2{
+    height: 70vh;
+    width: 30vw;
+    background-color: yellowgreen;
+
+}
+footer{
+    background-color: orange;
+    height: 20vh;
+}
