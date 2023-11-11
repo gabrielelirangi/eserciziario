@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+header{
+    height: 200px;
+    background-color: orange;
+}
+
+
+
+.quadrato{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 5%;
+    background-color: red;
+}
+.quadrato5{
+    border: 2px solid rgb(163, 91, 91);
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 5%;
+    background-color: rgb(163, 91, 91);
+}
+
+p{
+    text-align: center;
+    padding: 45%;
+    font-style: italic;
+    color: white;
+}
+
+footer{
+    height: 300px;
+    background-color: green;
+    clear: both;
+}
+
+
+
+

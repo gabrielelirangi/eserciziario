@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(182, 131, 230);
+}
+/* modifiche header pagina */
+header {
+  background-color: rgb(78, 2, 78);
+  height: 100px;
+  display: flow-root;
+}
+#logo {
+  background-color: pink;
+  width: 20%;
+
+  float: left;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+}
+#nav {
+    width: 20%;
+    float: right;
+    background-color: pink;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+/* stilizziamo il main */
+.contenitore{
+    border: 2px solid black;
+    height: 400px;
+    margin: 50px;
+
+}
+h1{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+aside{
+    border: 2px solid black;
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    background-color: aqua;
+    
+   
+    float: left;
+}
+.img{
+    text-align: center;
+    padding-top: 115px;
+    font-size: 20px;
+}
+.box1{
+    border: 2px solid black;
+    float: right;
+    height: 250px;
+    width: 1500px;
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: aquamarine;
+
+}
+.testo{
+    text-align: center;
+    padding: 100px;
+    font-size: 20px;
+}
+footer{
+    height: 400px;
+    background-color: rgb(61, 19, 61);
+    font-size: 100px;
+    color: white;
+
+}
+
+

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+header{
+    background-color: orange;
+    padding: 20px;
+
+}
+
+#sinistra{
+    float: left;
+    width: 30%;
+    height: 400px;
+    background-color: yellow;
+}
+
+#destra{
+    background-color: greenyellow;
+    width: 30%;
+    height: 400px;
+    float: right;
+}
+main{
+    background-color: blue;
+    height: 400px;
+    
+}
+
+footer{
+    background-color: green;
+    height: 30px;
+}
