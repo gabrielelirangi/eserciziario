@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+/* creazione header + inserimento logo + header style */
+header{
+    height: 10vh;
+    background-color: dodgerblue;
+    padding: 20px;
+    
+}
+.contenitore{
+    display: flex;
+    justify-content: space-between;
+}
+/* box che contiene logo/titolo + lista */
+ .header{
+    display: flex;
+    justify-content: left; 
+    
+
+}
+/* immagine logo */
+.img{
+    border: 1px solid black;
+    height: 5vh;
+    width: 5vh;
+    margin-right: 10px;
+    background-image: url(/immagini/logo.jpg);
+    background-size: cover;
+}
+/* modifica titolo */
+h1{
+    font-family: cursive;
+    color: rgb(203, 203, 203);
+}
+/* modifiche lista non ordinata */
+ul{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+li{
+    margin: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    color: rgb(203, 203, 203);
+    list-style-type: none;
+}
+
+/* main */
+/* stile per il main */
+.main-contenitore{
+    height: 183vh;
+    background-color: rgb(125, 143, 176);
+    padding-top:20px ;
+    display: flex;
+
+}
+/* stile box in cui e' contenuto il form*/
+.contenitore-form{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40vh;
+    width: 20%;
+    margin-left: 20px;
+    background-color: rgb(184, 183, 183);  
+    font-family: cursive; 
+    padding-top: 20px ;
+    margin-right: 40px;
+}
+/* modifiche tasto cerca del form */
+.cerca{
+    margin-left: 20px;
+    padding-top: 10px;
+
+}
+.label{
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+#cerca{
+    background-color: rgb(228, 227, 227); 
+    height: 3vh;
+    padding-left: 5px;  
+}
+/* modifiche div categoria */
+.categoria{
+    
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.scelte{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.spedizione{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+#normale{
+    margin-top: 20px;
+}
+/* contenitore img */
+.contenitore-img{
+    
+    width: 75vw;
+    
+    
+}
+.riga{
+    
+    display: flex;
+    height: 30vh;
+    
+}
+ .box{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 25vh;
+    width: 10vw;
+    margin: 20px 150px 20px 130px; 
+    background-color: rgb(134, 194, 194);
+    
+
+ }
+ .img1{
+    background-image: url(/immagini/tastiera1.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+   
+ }
+ .testo{
+    margin: 10px;
+ }
+.img2{
+    background-image: url(/immagini/tastiera3.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img3{
+    background-image: url(/immagini/tastiera4.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img4{
+    background-image: url(/immagini/tastiera2.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img5{
+    background-image: url(/immagini/tastiera5.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img6{
+    background-image: url(/immagini/tastiera6.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img7{
+    background-image: url(/immagini/mouse1.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img8{
+    background-image: url(/immagini/mouse2.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img9{ background-image: url(/immagini/mouse4.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img10{
+    background-image: url(/immagini/mouse5.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img11{
+    background-image: url(/immagini/mouse1.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img12{
+    background-image: url(/immagini/mouse6.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+
+}
+.img13{
+    background-image: url(/immagini/monitor1.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img14{
+    background-image: url(/immagini/monitor2.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img15{
+    background-image: url(/immagini/monitor3.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img16{
+    background-image: url(/immagini/monitor4.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img17{ background-image: url(/immagini/monitor5.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+.img18{
+    background-image: url(/immagini/monitor6.jpeg);
+    height: 15vh;
+    background-size: cover;
+    margin: 10px;
+}
+/* stile footer */
+footer{
+    height: 10vh;
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#destra{
+    font-size: 20px;
+    font-family: cursive;
+    color: rgb(203, 203, 203);
+    margin-left: 20px;
+    margin-top: 20px;
+}
