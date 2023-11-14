@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background-color: rgb(161, 161, 161);
+  font-family: cursive;
+}
+
+/* header */
+
+header {
+  background-color: rgba(0, 23, 139, 0.514);
+  height: 10vh;
+ 
+}
+
+#logo {
+  height: 60px;
+  width: 120px;
+  background-image: url(/esercizi/esercizio3/img/logo.jpeg);
+  background-size: cover;
+}
+
+nav {
+
+  height: 10vh;
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  font-size: 20px;
+}
+a {
+  color: azure;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+
+/* main */
+
+main {
+  background-image: url(/esercizi/esercizio3/img/24613_zwp6.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titolo h1 {
+  font-size: 100px;
+  color: red;
+}

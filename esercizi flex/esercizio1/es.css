@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.contenitore {
+  background-color: blue;
+  padding: 20px;
+}
+
+.riga {
+  display: flex;
+  margin: 10px;
+}
+
+.quadrato {
+  width: 200px;
+  height: 200px;
+  margin: 0px 5px 0px 5px;
+}
+.rosso{
+  background-color:red;
+}
+.giallo{
+  background-color: yellow;
+}
+.giallo-verde{
+  background-color: yellowgreen;
+}
+.verde{
+  background-color: green;
+}
+
+
+
+
+/* per fixare l'overflow (barra laterale di scorrimento orizzontale) usa il comando overflow-x: hidden;---->nasconde */
